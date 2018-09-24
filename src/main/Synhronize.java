@@ -1,6 +1,6 @@
 package main;
 
-public class Synhronized
+public class Synhronize
 {
     public static class Main
     {

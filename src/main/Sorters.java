@@ -1,9 +1,9 @@
 package main;
 
-public class Sorter {
+public class Sorters {
     private static int[] arr;
 
-    public Sorter(int[] arr) {
+    public Sorters(int[] arr) {
         this.arr = arr;
     }
 
@@ -90,14 +90,14 @@ public class Sorter {
 
         arr = new int[]{2, 9, 4, 6, 3, 8, 1};
 
-        Sorter sorter = new Sorter(arr);
+        Sorters sorters = new Sorters(arr);
 
         for (int i = 0; i < arr.length; ++i) {
             System.out.print(arr[i] + " ");
         }
 
         System.out.println();
-        arr = sorter.shakeSort();
+        arr = sorters.shakeSort();
 
         for (int i = 0; i < arr.length; ++i) {
             System.out.print(arr[i] + " ");
